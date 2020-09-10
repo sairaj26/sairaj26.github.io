@@ -1,0 +1,87 @@
+html{
+	background-image: url("../images/campnouab.jpg");
+}
+.info {
+	display: inline-block;
+}
+
+.heading h1{
+	color: #FFFF00;
+	text-align: center;
+	margin-top: 7%;
+}
+
+.info p,h4{
+	color: #66FFFF;
+	 text-shadow: 2px 2px #191970 ;
+	 font-size: 25px; 
+}
+
+.info a{
+	color : #FFFFFF;
+	text-decoration: none;
+}
+
+.info img{
+	height: 200px;
+}
+
+
+
+.photos #joan{
+	display: inline-block;
+	float:left;
+}
+
+.para #intro{
+	display: inline-block;
+	width: 90%;
+    font-size: 25px; 
+    text-align: justify;
+}
+.para #trophies{
+	display: inline-block;
+	width: 80%;
+	text-align: justify;
+}
+
+.photos #trophy{
+	display: inline-block;
+	float:right;
+}
+
+@media screen and (max-width:999px){
+
+	.heading{
+		margin-top:28%;
+		font-size: 12px;
+	}
+
+	.photos{
+		display: none;
+	}
+
+	.para #intro,.para #trophies{
+		width: 90%;
+	}
+
+	.para{
+		margin-left: 5%;
+	}
+
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px){
+	.heading{
+		margin-top: 10%;
+	}
+
+	.para #intro{
+		width:85%;
+	}
+
+	.para #trophies{
+		width:73%;
+
+	}
+}
